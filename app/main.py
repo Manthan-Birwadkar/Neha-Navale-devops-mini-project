@@ -16,7 +16,7 @@ def count_requests():
 
 @app.route("/")
 def home():
-    return jsonify({"status": "success", "message": "Welcome to the End-to-End DevOps Mini Project!", "version": "1.0.0"}), 200
+    return jsonify({"status": "success", "message": "Welcome to the End-to-End DevOps Mini Project!", "version": "1.1.0"}), 200
 
 @app.route("/health")
 def health():
